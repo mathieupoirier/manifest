@@ -3,6 +3,7 @@
         <remote name="github"   fetch="https://github.com" />
         <remote name="tfo"      fetch="https://git.trustedfirmware.org" />
         <remote name="u-boot"   fetch="https://source.denx.de/u-boot" />
+	<remote name="jpb"   fetch="https://jpbrucker.net/git" />
         <default remote="github" revision="master" />
 
         <!-- OP-TEE gits -->
@@ -25,5 +26,6 @@
         <project path="qemu"                 name="qemu/qemu.git"                         revision="refs/tags/v8.0.0" clone-depth="1" />
         <project path="trusted-firmware-a"   name="TF-A/trusted-firmware-a.git"           revision="master" clone-depth="1" remote="tfo" />
         <project path="hafnium"   name="hafnium/hafnium.git"           revision="master" clone-depth="1" remote="tfo" />
+        <project path="rmm"		     name="rmm"					  revision="qemu-rme" remote="jpb" />
         <project path="u-boot"               name="u-boot.git"                            revision="refs/tags/v2023.07.02" remote="u-boot" clone-depth="1" />
 </manifest>
