@@ -23,6 +23,7 @@
         <project path="buildroot"            name="buildroot/buildroot.git"               revision="1e39222b0cd334129b77f1f41f8923de4d573ad4" clone-depth="1" />
         <project path="edk2"		     name="tianocore/edk2.git"			  revision="326b9e1d815c4ae4b0b207fcb0bfa16864af5400" sync-s="true" />
 	<project path="linux"                name="linux-arm/linux-cca"			  revision="cca-full/rmm-v1.0-eac2" remote="gla" clone-depth="1" />
+	<project path="kvmtool"		     name="linux-arm/kvmtool-cca"		  revision="cca/rmm-v1.0-eac2" remote="gla" />
         <project path="mbedtls"              name="Mbed-TLS/mbedtls.git"                   revision="refs/tags/mbedtls-2.26.0" clone-depth="1" />
         <project path="optee_rust"           name="apache/incubator-teaclave-trustzone-sdk.git"            revision="4031e7282a8f398f54faa19acb2b84fab05de877" />
 	<project path="qemu"                 name="qemu"				  revision="cca/rmm-v1.0-eac2" remote="jpb" />
